@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+
+h1,ul{
+    font-family: 'Abhaya Libre', serif;
+}
+
+h3{
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color:rgb(237, 231, 223);
+}
+
+.navigation-bar{
+    padding-bottom: 47px;
+    padding-top: 41px;
+    border-bottom: 29px solid #FF6551;
+}
+
+.box-nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.box-nav a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
