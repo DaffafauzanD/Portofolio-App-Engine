@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 
-h1,ul{
+h1{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 100px;
+}
+
+ul{
     font-family: 'Abhaya Libre', serif;
 }
 
 h3{
     font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: #373737;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    color: #373737;
+    font-size: 15px;
 }
 
 *{
@@ -33,6 +47,95 @@ body {
 
 .box-nav a {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 }
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    padding: 177px 94px 0px 94px;
+    gap: 188px;
+}
+
+
+
+.box-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.img-ex{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    transition: 300ms;
+}
+
+.img-ex:hover{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    transition: 300ms;
+}
+
+
+.container-expe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 81px 106px 81px;
+}
+
+.desc-exp {
+    text-align: center;
+}
+
+.desc-exp h1 {
+    padding-bottom: 27px;
+}
+
+.box-image {
+    padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.box-image p {
+    text-align: center;
+    width: 400px;
+    word-wrap: break-word;
+    padding-bottom: 6px;
+}
+
+.containe-social{
+    display: flex;
+    flex-direction: column;
+    padding: 62px 0px 0px 0px;
+}
+
+.desc-social {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 94px;
+    gap: 20px;
+}
+
+.box-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 212px;
+    background-color: #FF6551;
+    padding-top: 81px;
+    padding-bottom: 63px;
+}
+
+
+
